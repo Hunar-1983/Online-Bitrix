@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-07-26T22:39:12.560Z",
+        "start_timestamp": "2020-07-26T22:49:04.982Z",
         "line": 7,
         "name": "PC user can able to download desktop version of the application",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7480000000,
+              "duration": 7853000000,
               "status": "passed"
             },
             "line": 8,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 218000000,
+              "duration": 284000000,
               "status": "passed"
             },
             "line": 9,
@@ -37,25 +37,13 @@
           },
           {
             "result": {
-              "duration": 582000000,
+              "duration": 262000000,
               "status": "passed"
             },
             "line": 10,
             "name": "User should be able to click on Windows icon under Desktop Client to downloan Windows version of Bitrix.",
             "match": {
               "location": "com.nextbase.step_definitions.UserStory11Step_definitions.user_should_be_able_to_click_on_windows_icon_under_desktop_client_to_downloan_windows_version_of_bitrix()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 628000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "User should be able to click on Linux icon under Desktop",
-            "match": {
-              "location": "com.nextbase.step_definitions.UserStory11Step_definitions.user_should_be_able_to_click_on_linux_icon_under_desktop()"
             },
             "keyword": "Then "
           }

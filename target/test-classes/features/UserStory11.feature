@@ -8,7 +8,6 @@ Feature:
     Given User should be able to login the page
     When User should be able to click on Mac Os icon under Desktop
     Then User should be able to click on Windows icon under Desktop Client to downloan Windows version of Bitrix.
-    Then User should be able to click on Linux icon under Desktop
 
 
 
