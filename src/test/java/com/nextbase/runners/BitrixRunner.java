@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/nextbase/step_definitions",
         dryRun = false,
-        tags = "@wip"
+        tags = "@UserStory11"
 )
 
 public class BitrixRunner {

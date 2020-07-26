@@ -3,51 +3,75 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-07-26T17:42:43.294Z",
-        "line": 3,
-        "name": "As a user i should be able to login with valid credentials",
+        "start_timestamp": "2020-07-26T22:39:12.560Z",
+        "line": 7,
+        "name": "PC user can able to download desktop version of the application",
         "description": "",
-        "id": "login;as-a-user-i-should-be-able-to-login-with-valid-credentials",
+        "id": ";pc-user-can-able-to-download-desktop-version-of-the-application",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 6462179500,
+              "duration": 7480000000,
               "status": "passed"
             },
-            "line": 4,
-            "name": "User inputs valid credentials",
+            "line": 8,
+            "name": "User should be able to login the page",
             "match": {
-              "location": "com.nextbase.step_definitions.LoginPageDefinitions.user_inputs_valid_credentials()"
+              "location": "com.nextbase.step_definitions.UserStory11Step_definitions.user_should_be_able_to_login_the_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 9976700,
+              "duration": 218000000,
               "status": "passed"
             },
-            "line": 5,
-            "name": "User should be able to login",
+            "line": 9,
+            "name": "User should be able to click on Mac Os icon under Desktop",
             "match": {
-              "location": "com.nextbase.step_definitions.LoginPageDefinitions.user_should_be_able_to_login()"
+              "location": "com.nextbase.step_definitions.UserStory11Step_definitions.user_should_be_able_to_click_on_mac_os_icon_under_desktop()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 582000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be able to click on Windows icon under Desktop Client to downloan Windows version of Bitrix.",
+            "match": {
+              "location": "com.nextbase.step_definitions.UserStory11Step_definitions.user_should_be_able_to_click_on_windows_icon_under_desktop_client_to_downloan_windows_version_of_bitrix()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 628000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be able to click on Linux icon under Desktop",
+            "match": {
+              "location": "com.nextbase.step_definitions.UserStory11Step_definitions.user_should_be_able_to_click_on_linux_icon_under_desktop()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@wip"
+            "name": "@UserStory11"
           }
         ]
       }
     ],
-    "name": "Login",
-    "description": "",
-    "id": "login",
+    "name": "",
+    "description": "  Agile Story 11 : As a PC user, I should be able to download Desktop version of the application.\n\n    Given User should be able to login",
+    "id": "",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/login.feature",
+    "uri": "file:src/test/resources/features/UserStory11.feature",
     "tags": []
   }
 ]

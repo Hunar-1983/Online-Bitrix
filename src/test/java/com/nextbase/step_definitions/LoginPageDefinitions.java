@@ -1,6 +1,7 @@
 package com.nextbase.step_definitions;
 
 import com.nextbase.pages.LoginPage;
+import com.nextbase.utilities.ConfigurationReader;
 import com.nextbase.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -8,14 +9,16 @@ import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
 
+import javax.security.auth.login.Configuration;
+
 public class LoginPageDefinitions {
 
     @Given("User inputs valid credentials")
     public void user_inputs_valid_credentials() {
        LoginPage loginPage=new LoginPage();
-       Driver.getDriver().get("http://login2.nextbasecrm.com/");
-       loginPage.userNameBox.sendKeys("hr45@cybertekschool.com"+Keys.ENTER);
-       loginPage.passwordBox.sendKeys("UserUser"+Keys.ENTER);
+       Driver.getDriver().get(ConfigurationReader.getProperty("bitrix_url"));
+       loginPage.userNameBox.sendKeys(ConfigurationReader.getProperty("username"));
+       loginPage.passwordBox.sendKeys(ConfigurationReader.getProperty("password")+Keys.ENTER);
     }
 
 
